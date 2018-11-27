@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/features/InserirConta.feature",
 		glue = "br.com.steps",
-		//tags = "",// para ignorar algum cenario só usar o comando ~ignore
+		tags = "~@ignore",// para ignorar algum cenario só usar o comando 
 		plugin = "pretty",
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,//Organiza as funcionalidades com o formato CAMELCASE

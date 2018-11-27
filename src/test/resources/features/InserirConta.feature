@@ -28,6 +28,6 @@ Funcionalidade: Cadastro de contas
   Cenário: Não deve inserir uma conta com nome já existente
 
     E seleciono Adicionar
-    E informo a conta "Conta de Teste"
+    E informo a conta "Conta para extrato"
     E seleciono Salvar
     Então sou notificado que já existe uma conta com esse nome
