@@ -15,7 +15,7 @@ public class InserirConta {
 	@Dado("^que estou acessando a aplicação$")
 	public void queEstouAcessandoAAplicação() throws Throwable {
 	    web.get("https://srbarriga.herokuapp.com/login");
-	 
+	  
 	}
 
 	@Quando("^informo o usuário \"([^\"]*)\"$")
