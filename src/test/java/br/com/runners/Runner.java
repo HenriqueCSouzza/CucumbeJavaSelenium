@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class )
 @CucumberOptions(
-		features = "src/test/resources/features",
+		features = "src/test/resources/features/InserirConta.feature",
 		glue = "br.com.steps",
 		//tags = "",// para ignorar algum cenario só usar o comando ~ignore
 		plugin = "pretty",
