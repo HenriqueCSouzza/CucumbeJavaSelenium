@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features = "src/test/resources/features/InserirConta.feature",
 		glue = "br.com.steps",
 		tags = "~@ignore",// para ignorar algum cenario só usar o comando 
-		plugin = "pretty",
+		plugin = {"pretty","html:target/report-html","json:target/report.json"},
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,//Organiza as funcionalidades com o formato CAMELCASE
 		dryRun = false,// se estiver true escapa todos os cenarios
